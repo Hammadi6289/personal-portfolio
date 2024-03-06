@@ -14,6 +14,7 @@
 
 # (npm install nodemailer)
 
+hosting @ https://react-portfolio-f035b.web.app
 1. Getting started.
 2. Create Navbar.js
 3. Create Banner.js
