@@ -106,7 +106,8 @@ nav.navbar.scrolled {
   background-color: #121212;
 }
 nav.navbar a.navbar-brand {
-  width: 9%;
+  width: 25%;
+  height: 25%;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
@@ -485,9 +486,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Projects Css ************/
+/************ Contact css ************/
 .contact {
-  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+  background: linear-gradient(9.21deg, #330022 -50.91%, #110033 90.58%);
+
   padding: 60px 0 200px 0;
 }
 .contact img {
@@ -563,24 +565,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Footer Css ************/
 .footer {
-  padding: 0 0 50px 0;
+  padding: 50px 0;
   background-image: url("./assets/img/footer-bg.png");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-}
-.newsletter-bx {
-  background: #ffffff;
-  border-radius: 55px;
-  color: #121212;
-  padding: 85px 125px;
-  margin-bottom: 80px;
-  margin-top: -122px;
-}
-.newsletter-bx h3 {
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  line-height: 1.2em;
 }
 .new-email-bx {
   background: #fff;
@@ -630,11 +619,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 18px;
 }
 .footer img {
-  width: 26%;
+  width: 35%;
 }
 .footer p {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 20px;
   color: #b8b8b8;
   letter-spacing: 0.5px;
   margin-top: 20px;

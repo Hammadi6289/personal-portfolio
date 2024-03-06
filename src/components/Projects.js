@@ -1,8 +1,12 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/VALSPAR.PNG";
+import projImg2 from "../assets/img/project-img22.PNG";
+import projImg3 from "../assets/img/sharpShooterspng.PNG";
+import projImg4 from "../assets/img/NatureExplorerTourismpng.PNG";
+import projImg5 from "../assets/img/genesispng.PNG";
+import projImg6 from "../assets/img/touchupPaintFactorypng.PNG";
+import projImg7 from "../assets/img/touchupXSpng.PNG";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -20,29 +24,29 @@ export const Projects = () => {
       imgUrl: projImg2,
     },
     {
-      title: "sharpshooters",
+      title: "Sharpshooters Arena",
       description: "React.js, Node.js and MongoDB",
       imgUrl: projImg3,
     },
     {
       title: "Tourism Web Application",
       description: "React.js",
-      imgUrl: projImg3,
+      imgUrl: projImg4,
     },
     {
       title: "Genesis Auto Body Supply.",
       description: "React.js (Designing)",
-      imgUrl: projImg3,
+      imgUrl: projImg5,
     },
     {
       title: "Touchup Paint Factory",
       description: "Shopify, JavaScript",
-      imgUrl: projImg3,
+      imgUrl: projImg6,
     },
     {
       title: "TouchupXS.com",
       description: "Wordpress, JavaScript, MongoDB",
-      imgUrl: projImg3,
+      imgUrl: projImg7,
     },
   ];
 
@@ -58,13 +62,12 @@ export const Projects = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <h2>Projects</h2>
+                  <h2>Recent Projects</h2>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    Welcome to my portfolio! Here you'll find a collection of my
+                    recent projects, showcasing my skills and expertise in web
+                    development. Feel free to explore and learn more about each
+                    project.
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
@@ -73,13 +76,10 @@ export const Projects = () => {
                       id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                        <Nav.Link eventKey="first">Completed</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">Tab 2</Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                        <Nav.Link eventKey="second">Upcoming</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content
@@ -97,20 +97,8 @@ export const Projects = () => {
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
                         <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis quo.
-                        </p>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="third">
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cumque quam, quod neque provident velit, rem
-                          explicabo excepturi id illo molestiae blanditiis,
-                          eligendi dicta officiis asperiores delectus quasi
-                          inventore debitis quo.
+                          Stay Connected! More projects under pipeline, You can
+                          always help me add projects here.
                         </p>
                       </Tab.Pane>
                     </Tab.Content>

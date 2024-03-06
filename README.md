@@ -12,8 +12,13 @@
 
 # Styling Dependencies include (npm install react-multi-carousel)
 
+# (npm install nodemailer)
+
 1. Getting started.
 2. Create Navbar.js
 3. Create Banner.js
 4. Create Skills.js
 5. Create Project.js
+6. Create Contact.js
+7. Server.js
+8. Footer.js
